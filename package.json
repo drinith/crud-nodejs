@@ -1,11 +1,11 @@
 {
   "name": "projeto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,14 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drinith/crud-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drinith/crud-nodejs/issues"
+  },
+  "homepage": "https://github.com/drinith/crud-nodejs#readme",
+  "description": ""
 }
